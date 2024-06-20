@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIcon?>
+<?import io.github.palexdev.mfxcore.controls.Label?>
+<?import java.lang.String?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Pagination?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.psmsystem.controller.crime.CrimeController">
+   <children>
+      <TableView fx:id="dataTable" layoutX="14.0" layoutY="67.0" onMouseClicked="#getItem" prefHeight="277.0" prefWidth="260.0">
+        <columns>
+          <TableColumn fx:id="idColumn" prefWidth="75.0" text="Id" />
+          <TableColumn fx:id="nameColumn" prefWidth="75.0" text="Name" />
+        </columns>
+      </TableView>
+      <Label layoutX="328.0" layoutY="27.0" prefHeight="40.0" prefWidth="98.0" text="Crime:" />
+      <TextField fx:id="txtCrime" layoutX="328.0" layoutY="67.0" prefHeight="40.0" prefWidth="241.0" />
+      <TextField fx:id="txtSearch" layoutX="14.0" layoutY="14.0" prefHeight="40.0" prefWidth="260.0" promptText="Search..." />
+      <FontAwesomeIcon glyphName="SEARCH" layoutX="246.0" layoutY="41.0" size="22" />
+      <Button layoutX="328.0" layoutY="281.0" mnemonicParsing="false" onAction="#onCreate" prefHeight="40.0" prefWidth="100.0" stylesheets="@../../css/mainpanel.css" text="CREATE">
+         <styleClass>
+            <String fx:value="btn" />
+            <String fx:value="success" />
+         </styleClass>
+      </Button>
+      <Button layoutX="469.0" layoutY="281.0" mnemonicParsing="false" onAction="#onEdit" prefHeight="40.0" prefWidth="100.0" stylesheets="@../../css/mainpanel.css" text="EDIT">
+         <styleClass>
+            <String fx:value="btn" />
+            <String fx:value="infor" />
+         </styleClass>
+      </Button>
+      <Button layoutX="328.0" layoutY="346.0" mnemonicParsing="false" onAction="#onClean" prefHeight="40.0" prefWidth="100.0" stylesheets="@../../css/mainpanel.css" text="CLEAN">
+         <styleClass>
+            <String fx:value="btn" />
+            <String fx:value="clear" />
+         </styleClass>
+      </Button>
+      <Button layoutX="469.0" layoutY="346.0" mnemonicParsing="false" onAction="#onDelete" prefHeight="40.0" prefWidth="100.0" stylesheets="@../../css/mainpanel.css" text="DELETE">
+         <styleClass>
+            <String fx:value="btn" />
+            <String fx:value="danger" />
+         </styleClass>
+      </Button>
+      <Pagination fx:id="pagination" layoutX="14.0" layoutY="64.0" prefHeight="322.0" prefWidth="260.0" />
+   </children>
+</AnchorPane>

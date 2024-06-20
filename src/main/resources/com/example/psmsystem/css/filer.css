@@ -1,0 +1,148 @@
+.bg
+{
+    -fx-text-fill: #afaeae;
+    -fx-background-color: #c3c1c1;
+    -fx-background-radius: 0px 0px 3px 0px;
+    -fx-border-width: 1px;
+    -fx-border-color: #1c1b1b;
+}
+.u18
+{
+    -fx-background-color: #faaaaa;
+    -fx-background-radius: 0px 0px 0px 0px;
+}
+.u18:hover
+{
+    -fx-background-color: #ff6f6f;
+    -fx-background-radius: 0px 0px 0px 0px;
+}
+.u18:focused
+{
+    -fx-font-size: 10;
+    -fx-min-height: 30px;
+    -fx-min-width: 30px;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-color: #ec0808;
+    -fx-background-radius: 0px 0px 0px 0px;
+}
+.u40
+{
+    -fx-background-color: #5c9a5c;
+    -fx-background-radius: 0px 0px 0px 0px;
+}
+.u40:hover, .u40:focused
+ {
+    -fx-font-size: 10;
+    -fx-min-height: 30px;
+    -fx-min-width: 30px;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-color: #007300;
+    -fx-background-radius: 0px 0px 0px 0px;
+ }
+.u60
+{
+    -fx-background-color: #ffff8e;
+    -fx-background-radius: 0px 0px 0px 0px;
+}
+.u60:hover, .u60:focused
+ {
+    -fx-font-size: 10;
+    -fx-min-height: 30px;
+    -fx-min-width: 30px;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-color: #8e8e00;
+    -fx-background-radius: 0px 0px 0px 0px;
+ }
+.over60
+{
+    -fx-background-color: #fd4545;
+    -fx-background-radius: 0px 0px 0px 0px;
+}
+.over60:hover, .over60:focused
+ {
+    -fx-font-size: 10;
+    -fx-min-height: 30px;
+    -fx-min-width: 30px;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-color: #930000;
+    -fx-background-radius: 0px 0px 0px 0px;
+ }
+.male
+{
+    -fx-background-color: #7fbeff;
+    -fx-background-radius: 0px 0px 0px 0px;
+}
+.male:hover, .male:focused
+{
+    -fx-font-size: 10;
+    -fx-min-height: 30px;
+    -fx-min-width: 30px;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-color: #0183ff;
+    -fx-background-radius: 0px 0px 0px 0px;
+}
+.female
+{
+    -fx-background-color: #ff96d2;
+    -fx-background-radius: 0px 0px 0px 0px;
+}
+.female:hover, .female:focused
+{
+    -fx-font-size: 10;
+    -fx-min-height: 30px;
+    -fx-min-width: 30px;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-color: #ff0095;
+    -fx-background-radius: 0px 0px 0px 0px;
+}
+.other
+{
+    -fx-background-radius: 0px 0px 0px 0px;
+    -fx-background-color: linear-gradient(
+            to right,
+            #fd3a3a,
+            #ffff46,
+            #fbbb44,
+            #38fd38,
+            #3e3efd,
+            #ad3eff,
+            #dcbbdc
+    );
+}
+.other:hover, .other:focused
+{
+    -fx-font-size: 10;
+    -fx-min-height: 30px;
+    -fx-min-width: 30px;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 0px 0px 0px 0px;
+    -fx-background-color: linear-gradient(
+            to right,
+            violet,
+            indigo,
+            blue,
+            green,
+            orange,
+            yellow,
+            red
+    );
+}
+
+.btn
+{
+    -fx-background-color: #8f8f8f;
+    -fx-background-radius: 0px 0px 0px 0px;
+}
+.btn:hover
+{
+    -fx-text-fill: white;
+    -fx-background-color: #4c4c4c;
+    -fx-background-radius: 3px;
+}

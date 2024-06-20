@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="678.0" prefWidth="1135.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.psmsystem.controller.prisoner.DetailController">
+   <children>
+      <AnchorPane layoutX="35.0" layoutY="35.0" prefHeight="610.0" prefWidth="448.0" styleClass="prisonerForm" stylesheets="@../../css/addPrisoner.css" AnchorPane.leftAnchor="35.0" AnchorPane.topAnchor="35.0">
+         <children>
+            <Line endX="-100.0" endY="514.5" fill="#9a9999" layoutX="125.0" layoutY="92.0" opacity="0.4" scaleX="20.0" startX="-100.0" startY="-93.0" stroke="#d0d0d0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="25.0" AnchorPane.topAnchor="0.0" />
+            <Line endX="-100.0" endY="514.5" fill="#9a9999" layoutX="135.0" layoutY="102.0" opacity="0.4" scaleX="20.0" startX="-100.0" startY="-93.0" stroke="#d0d0d0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="85.0" AnchorPane.topAnchor="0.0" />
+            <Line endX="-100.0" endY="514.5" fill="#9a9999" layoutX="145.0" layoutY="112.0" opacity="0.4" scaleX="20.0" startX="-100.0" startY="-93.0" stroke="#d0d0d0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="145.0" AnchorPane.topAnchor="0.0" />
+            <Line endX="-100.0" endY="514.5" fill="#9a9999" layoutX="155.0" layoutY="122.0" opacity="0.4" scaleX="20.0" startX="-100.0" startY="-93.0" stroke="#d0d0d0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="205.0" AnchorPane.topAnchor="0.0" />
+            <Line endX="-100.0" endY="514.5" fill="#9a9999" layoutX="165.0" layoutY="132.0" opacity="0.4" scaleX="20.0" startX="-100.0" startY="-93.0" stroke="#d0d0d0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="265.0" AnchorPane.topAnchor="0.0" />
+            <Line endX="-100.0" endY="514.5" fill="#9a9999" layoutX="175.0" layoutY="142.0" opacity="0.4" scaleX="20.0" startX="-100.0" startY="-93.0" stroke="#d0d0d0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="325.0" AnchorPane.topAnchor="0.0" />
+            <Line endX="-100.0" endY="514.5" fill="#9a9999" layoutX="185.0" layoutY="152.0" opacity="0.4" scaleX="20.0" startX="-100.0" startY="-93.0" stroke="#d0d0d0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="385.0" AnchorPane.topAnchor="0.0" />
+            <Line endX="-100.0" endY="514.5" fill="#9a9999" layoutX="195.0" layoutY="162.0" opacity="0.4" scaleX="20.0" startX="-100.0" startY="-93.0" stroke="#d0d0d0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="445.0" AnchorPane.topAnchor="0.0" />
+            <Label layoutX="172.0" layoutY="14.0" prefHeight="34.0" prefWidth="160.0" text="PRISON MEMBER" AnchorPane.leftAnchor="171.0" AnchorPane.rightAnchor="171.0">
+               <font>
+                  <Font name="Agency FB Bold" size="28.0" />
+               </font>
+            </Label>
+            <ImageView fx:id="imgPrisonerAdd" fitHeight="146.0" fitWidth="154.0" layoutX="171.0" layoutY="126.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="171.0" AnchorPane.rightAnchor="177.0" />
+            <Label layoutX="104.0" layoutY="444.0" prefHeight="26.0" prefWidth="135.0" text="CONTACT PHONE :" AnchorPane.leftAnchor="100.0" AnchorPane.topAnchor="444.0">
+               <font>
+                  <Font name="Agency FB Bold" size="21.0" />
+               </font>
+            </Label>
+            <Label fx:id="lbIdentityCard" layoutX="254.0" layoutY="325.0" prefHeight="26.0" prefWidth="120.0" text="024289082009" AnchorPane.rightAnchor="129.0" AnchorPane.topAnchor="325.0">
+               <font>
+                  <Font name="Agency FB" size="21.0" />
+               </font>
+            </Label>
+            <Label layoutX="100.0" layoutY="402.0" prefHeight="26.0" prefWidth="120.0" text="CONTACT NAME :" AnchorPane.leftAnchor="100.0" AnchorPane.topAnchor="402.0">
+               <font>
+                  <Font name="Agency FB Bold" size="21.0" />
+               </font>
+            </Label>
+            <Label layoutX="100.0" layoutY="325.0" prefHeight="26.0" prefWidth="120.0" text="IDENTITY CARD : " AnchorPane.leftAnchor="100.0" AnchorPane.topAnchor="325.0">
+               <font>
+                  <Font name="Agency FB Bold" size="21.0" />
+               </font>
+            </Label>
+            <Label layoutX="100.0" layoutY="364.0" prefHeight="26.0" prefWidth="71.0" text="GENDER : " AnchorPane.leftAnchor="100.0" AnchorPane.topAnchor="364.0">
+               <font>
+                  <Font name="Agency FB Bold" size="21.0" />
+               </font>
+            </Label>
+            <Label fx:id="lbContactName" layoutX="252.0" layoutY="402.0" prefHeight="26.0" prefWidth="120.0" text="NGUYEN THI HONG" AnchorPane.rightAnchor="131.0" AnchorPane.topAnchor="402.0">
+               <font>
+                  <Font name="Agency FB" size="21.0" />
+               </font>
+            </Label>
+            <Label fx:id="lbGender" layoutX="168.0" layoutY="364.0" prefHeight="26.0" prefWidth="83.0" text="MALE" AnchorPane.leftAnchor="168.0" AnchorPane.topAnchor="364.0">
+               <font>
+                  <Font name="Agency FB" size="21.0" />
+               </font>
+            </Label>
+            <Label fx:id="lbFullName" alignment="CENTER" layoutX="159.0" layoutY="279.0" prefHeight="26.0" prefWidth="178.0" text="NGUYỄN VĂN BẢY" textAlignment="CENTER" AnchorPane.leftAnchor="159.0" AnchorPane.rightAnchor="165.0">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Label>
+            <Label fx:id="lbContactPhone" layoutX="254.0" layoutY="444.0" prefHeight="26.0" prefWidth="92.0" text="0248721287" AnchorPane.rightAnchor="157.0" AnchorPane.topAnchor="444.0">
+               <font>
+                  <Font name="Agency FB" size="21.0" />
+               </font>
+            </Label>
+            <Label layoutX="251.0" layoutY="364.0" prefHeight="26.0" prefWidth="60.0" text="BIRTH : " AnchorPane.topAnchor="364.0">
+               <font>
+                  <Font name="Agency FB Bold" size="21.0" />
+               </font>
+            </Label>
+            <Label fx:id="lbDOB" layoutX="303.0" layoutY="364.0" prefHeight="26.0" prefWidth="92.0" text="21/10/1999" AnchorPane.topAnchor="364.0">
+               <font>
+                  <Font name="Agency FB" size="21.0" />
+               </font>
+            </Label>
+            <AnchorPane layoutX="167.0" layoutY="530.0" prefHeight="44.0" prefWidth="294.0" AnchorPane.leftAnchor="167.0" AnchorPane.rightAnchor="42.0">
+               <children>
+                  <Button layoutX="167.0" layoutY="81.0" mnemonicParsing="false" onAction="#moreInfo" prefWidth="60.0" styleClass="buttonControl" stylesheets="@../../css/addPrisoner.css" text="MORE" visible="false" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="10.0" />
+                  <Button layoutX="20.0" layoutY="81.0" mnemonicParsing="false" onAction="#back" prefWidth="60.0" styleClass="buttonControl" stylesheets="@../../css/addPrisoner.css" text="BACK" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="10.0" />
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="45.0" layoutY="45.0" prefHeight="610.0" prefWidth="503.0" styleClass="prisonerForm" stylesheets="@../../css/addPrisoner.css" AnchorPane.rightAnchor="35.0" AnchorPane.topAnchor="35.0">
+         <children>
+            <Line endX="-100.0" endY="514.5" fill="#9a9999" layoutX="125.0" layoutY="92.0" opacity="0.4" scaleX="20.0" startX="-100.0" startY="-93.0" stroke="#d0d0d0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="25.0" AnchorPane.topAnchor="0.0" />
+            <Line endX="-100.0" endY="514.5" fill="#9a9999" layoutX="135.0" layoutY="102.0" opacity="0.4" scaleX="20.0" startX="-100.0" startY="-93.0" stroke="#d0d0d0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="85.0" AnchorPane.topAnchor="0.0" />
+            <Line endX="-100.0" endY="514.5" fill="#9a9999" layoutX="145.0" layoutY="112.0" opacity="0.4" scaleX="20.0" startX="-100.0" startY="-93.0" stroke="#d0d0d0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="145.0" AnchorPane.topAnchor="0.0" />
+            <Line endX="-100.0" endY="514.5" fill="#9a9999" layoutX="155.0" layoutY="122.0" opacity="0.4" scaleX="20.0" startX="-100.0" startY="-93.0" stroke="#d0d0d0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="205.0" AnchorPane.topAnchor="0.0" />
+            <Line endX="-100.0" endY="514.5" fill="#9a9999" layoutX="165.0" layoutY="132.0" opacity="0.4" scaleX="20.0" startX="-100.0" startY="-93.0" stroke="#d0d0d0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="265.0" AnchorPane.topAnchor="0.0" />
+            <Line endX="-100.0" endY="514.5" fill="#9a9999" layoutX="175.0" layoutY="142.0" opacity="0.4" scaleX="20.0" startX="-100.0" startY="-93.0" stroke="#d0d0d0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="325.0" AnchorPane.topAnchor="0.0" />
+            <Line endX="-100.0" endY="514.5" fill="#9a9999" layoutX="185.0" layoutY="152.0" opacity="0.4" scaleX="20.0" startX="-100.0" startY="-93.0" stroke="#d0d0d0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="385.0" AnchorPane.topAnchor="0.0" />
+            <Line endX="-100.0" endY="514.5" fill="#9a9999" layoutX="195.0" layoutY="162.0" opacity="0.4" scaleX="20.0" startX="-100.0" startY="-93.0" stroke="#d0d0d0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="445.0" AnchorPane.topAnchor="0.0" />
+            <AnchorPane layoutX="17.0" layoutY="21.0" prefHeight="215.0" prefWidth="470.0" AnchorPane.bottomAnchor="360.0" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="20.0">
+               <children>
+                  <Label layoutX="6.0" layoutY="5.0" prefHeight="30.0" prefWidth="92.0" text="Sentence" AnchorPane.leftAnchor="6.0" AnchorPane.topAnchor="5.0">
+                     <font>
+                        <Font name="Agency FB Bold" size="28.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="17.0" layoutY="84.0" text="Number of sentence :" AnchorPane.leftAnchor="17.0">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="lbNumberOfSentence" layoutX="184.0" layoutY="84.0" prefHeight="20.0" prefWidth="20.0" text="2">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="225.0" layoutY="84.0" text="Sentence type: ">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="txtSentenceType" layoutX="340.0" layoutY="84.0" text="Limited time">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="16.0" layoutY="124.0" text="Start date :">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="txtStartDate" layoutX="106.0" layoutY="124.0" text="21/10/2002">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="228.0" layoutY="124.0" text="EndDate date :">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="txtEndDate" layoutX="344.0" layoutY="124.0" text="20/10/2024">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="17.0" layoutY="49.0" text="Status serving : ">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="txtStatusServing" layoutX="143.0" layoutY="49.0" text="are serving">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="17.0" layoutY="160.0" text="Crimes 1: ">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="txtCrimes" layoutX="88.0" layoutY="160.0" text="Crime list 2  ">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                  </Label>
+                  <Button fx:id="btnMoreSentence" layoutX="253.0" layoutY="192.0" mnemonicParsing="false" onAction="#moreInfo" styleClass="buttonControl" stylesheets="@../../css/addPrisoner.css" text="MORE SENTENCE" />
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="14.0" layoutY="268.0" prefHeight="170.0" prefWidth="470.0" AnchorPane.bottomAnchor="180.0" AnchorPane.leftAnchor="20.0">
+               <children>
+                  <Label layoutX="13.0" layoutY="14.0" prefHeight="34.0" prefWidth="71.0" text="Health" AnchorPane.leftAnchor="13.0" AnchorPane.topAnchor="14.0">
+                     <font>
+                        <Font name="Agency FB Bold" size="28.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="15.0" layoutY="59.0" text="Health Code  : ">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="txtHealthCode" layoutX="131.0" layoutY="60.0" text="H1">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="14.0" layoutY="95.0" text="Weight : ">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="txtWeight" layoutX="80.0" layoutY="95.0" text="57.0 ( kg )">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="223.0" layoutY="95.0" text="Height :">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="txtHeight" layoutX="294.0" layoutY="95.0" text="170 ( cm )">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="14.0" layoutY="126.0" text="Status health :">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="txtHealthy" layoutX="118.0" layoutY="126.0" text="healthy">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="223.0" layoutY="126.0" text="Level : ">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="txtLevelHealth" layoutX="286.0" layoutY="126.0" text="Strong">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="223.0" layoutY="59.0" text="Update : ">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="txtUpdateDate" layoutX="294.0" layoutY="59.0" text="20/12/2021">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="17.0" layoutY="428.0" prefHeight="150.0" prefWidth="470.0" AnchorPane.bottomAnchor="15.0" AnchorPane.leftAnchor="20.0">
+               <children>
+                  <Label layoutX="14.0" layoutY="14.0" prefHeight="34.0" prefWidth="83.0" text="Assess" AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="14.0">
+                     <font>
+                        <Font name="Agency FB Bold" size="28.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="14.0" layoutY="60.0" text="Assess Code  : ">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="txtAssessCode" layoutX="123.0" layoutY="60.0" text="P1">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="227.0" layoutY="60.0" text="Event date: ">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="txtEventDate" layoutX="315.0" layoutY="60.0" text="06/01/2023">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="14.0" layoutY="93.0" text="Event type : ">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="txtEventType" layoutX="110.0" layoutY="93.0" text="Bonus">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="227.0" layoutY="93.0" text="Level : ">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="txtLevelAssess" layoutX="289.0" layoutY="93.0" text="very good">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="14.0" layoutY="127.0" text="Note : ">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="txtNoteAssess" layoutX="61.0" layoutY="127.0" text="Moderate misconduct.">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

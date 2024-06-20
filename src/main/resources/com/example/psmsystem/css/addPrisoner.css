@@ -1,0 +1,148 @@
+.formAdd
+{
+    -fx-background-color: #c8c5c5;
+    -fx-font-family: "Courier New";
+    -fx-font-size: 14px;
+}
+.prisonerForm
+{
+    -fx-background-color: #ffffff;
+    -fx-background-radius: 5px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.3), 10, 0, 0, 5);
+}
+.sentenceForm
+{
+    -fx-background-color: #ffffff;
+    -fx-background-radius: 5px;
+    -fx-boder-radius:solid 2px black ;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.3), 10, 0, 0, 5);
+
+}
+.imgView
+{
+    -fx-border-color: black;
+    -fx-border-width: 1px;
+}
+.buttonControl
+{
+    -fx-pref-width: 135px;
+    -fx-pref-height: 25px;
+    -fx-max-width: 135px;
+    -fx-max-height: 25px;
+    -fx-font-size: 14px;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 3px;
+    -fx-background-color: #a8a8a8;
+}
+.buttonControl:hover
+{
+    -fx-pref-width: 135px;
+    -fx-pref-height: 25px;
+    -fx-max-width: 135px;
+    -fx-max-height: 25px;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 3px;
+    -fx-text-fill: #5c5c5c;
+    -fx-border-radius: 3px;
+    -fx-background-color: #ffffff;
+    -fx-border-width: 0.2em;
+    -fx-border-color: gray;
+    -fx-padding: 2px;
+
+}
+.buttonAddTime
+{
+    -fx-font-size: 14px;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 3px;
+    -fx-background-color: #a8a8a8;
+}
+.buttonAddTime:hover
+{
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 3px;
+    -fx-text-fill: #5c5c5c;
+    -fx-border-radius: 3px;
+    -fx-background-color: #ffffff;
+    -fx-border-width: 0.2em;
+    -fx-border-color: gray;
+    -fx-padding: 2px;
+
+}
+
+.btnAddCrimes
+{
+    -fx-pref-width: 40px;
+    /*-fx-pref-height: 13px;*/
+    /*-fx-max-width: 120px;*/
+    -fx-max-height: 14px;
+    -fx-font-size: 13.5px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 3px;
+    -fx-background-color: #b3b3b3;
+    /*-fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.3), 5, 0, 0, 5);*/
+}
+/*.nameFont*/
+/*{*/
+/*    -fx-font-family: "Times New Roman";*/
+/*    -fx-font-size: 14px;*/
+/*}*/
+.title
+{
+    -fx-background-color: White;
+}
+.vbNameCrime,.vbYOC {
+    spacing: 10px; /* Khoảng cách giữa các phần tử trong VBox */
+}
+.txt{
+    -fx-background-color: rgba(184, 183, 183, 0.18); /* Màu nền */
+    -fx-border-color: transparent transparent #515151 transparent; /* Màu viền dưới */
+    -fx-border-width: 0 0 0.2em 0; /* Độ rộng viền, chỉ viền dưới */
+    -fx-border-radius: 0.2em 0.2em 0 0; /* Bo tròn góc */
+    -fx-text-fill: #0b0a0a; /* Màu văn bản */
+    -fx-font-size: 1em; /* Cỡ chữ */
+}
+
+.date-picker {
+    -fx-background-color: rgb(140, 140, 140, 0.2); /* Màu nền */
+    -fx-border-color: transparent transparent #515151 transparent; /* Màu viền dưới */
+    -fx-border-width: 0 0 0.2em 0; /* Độ rộng viền, chỉ viền dưới */
+    -fx-border-radius: 0.2em 0.2em 0 0; /* Bo tròn góc */ /* Khoảng cách đệm */
+    -fx-text-fill: #0b0a0a; /* Màu văn bản */
+    -fx-font-size: 1em; /* Cỡ chữ */
+}
+
+
+.date-picker {
+    -fx-background-color: transparent; /* Màu nền của trường văn bản bên trong DatePicker */
+    -fx-text-fill: inherit; /* Màu văn bản của trường văn bản bên trong DatePicker */
+}
+
+.date-picker:focused {
+    -fx-background-color: rgb(140, 140, 140, 0.2); /* Màu nền khi có tiêu điểm */
+}
+
+.date-picker {
+    -fx-text-fill: #9a9a9a; /* Màu văn bản gợi ý */
+}
+
+/*.date-picker .arrow-button {*/
+/*    -fx-background-color: transparent;*/
+/*    -fx-padding: 0;*/
+/*    -fx-shape: "";*/
+/*}*/
+
+/*.date-picker .arrow {*/
+/*    -fx-background-color: transparent;*/
+/*    -fx-padding: 0;*/
+/*    -fx-shape: "";*/
+/*}*/
+
+/*.date-picker .arrow-button .label {*/
+/*    -fx-padding: 0;*/
+/*    -fx-shape: "";*/
+/*}*/

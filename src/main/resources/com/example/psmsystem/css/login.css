@@ -1,0 +1,38 @@
+.btnClose
+{
+    /*-fx-font-weight: regular;*/
+    -fx-text-fill: #afaeae;
+    -fx-background-color: #494949;
+    -fx-background-radius: 0px 0px 3px 0px;
+
+}
+.btnCloseRegister
+{
+    -fx-text-fill: #afaeae;
+    -fx-background-color: #494949;
+    -fx-background-radius: 0px 0px 0px 3px;
+}
+.btnClose:hover ,.btnCloseRegister:hover
+{
+    -fx-background-color: #8e8c8c;
+    -fx-font-weight: bold;
+    -fx-text-fill: black;
+}
+.btnLogin
+{
+    -fx-background-color: #807c7c;
+    -fx-background-radius: 0px;
+}
+.btnLogin:hover
+{
+    -fx-background-color:  #404040;
+    -fx-background-radius: 5px;
+    -fx-font-weight: bold;
+}
+
+.txtRegister
+{
+    -fx-background-color: transparent;
+    -fx-border-color:  #404040;
+    -fx-border-width:  0px 0px 2px 0px;
+}

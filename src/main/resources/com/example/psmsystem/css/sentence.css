@@ -1,0 +1,7 @@
+.btnControl
+{
+    -fx-text-fill: #afaeae;
+    -fx-font-size: 10;
+    -fx-background-color: #494949;
+    -fx-background-radius: 3px 3px 3px 3px;
+}

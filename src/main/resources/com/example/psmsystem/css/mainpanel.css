@@ -1,0 +1,156 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 28, 2020, 9:06:34 PM
+    Author     : Ramesh Godara
+*/
+.btnClose
+{
+    -fx-text-fill: #838383;
+    -fx-background-color: #d3d1d1;
+    -fx-background-radius: 0px 0px 0px 3px;
+}
+.btnClose:hover
+{
+    -fx-text-fill: #000000;
+    -fx-background-color: #fa0101;
+    -fx-font-weight: bold;
+}
+.parent {
+    -fx-background-color: #fff
+}
+.sidebar {
+    -fx-background-color: gray
+}
+.bt {
+    -fx-text-fill: #fff;
+}
+.bt:hover {
+    -fx-background-color: #e1f3ff;
+    -fx-text-fill: #000;
+}
+.bt.selected {
+    -fx-background-color: #e1f3ff;
+    -fx-text-fill: #000;
+}
+
+.btn{
+    -fx-cursor: HAND;
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+}
+.btn.success{
+    -fx-text-fill: #fff;
+    -fx-background-color: #28c76f;
+}
+.btn.warning{
+    -fx-text-fill: #fff;
+    -fx-background-color: #ff9f43;
+}
+.btn.danger{
+    -fx-text-fill: #fff;
+    -fx-background-color: #ea5455;
+}
+.btn.infor{
+    -fx-text-fill: #fff;
+    -fx-background-color: #00cfe8;
+}
+.btn.clear{
+    -fx-border-color: #00cfe8;
+    -fx-border-width: 1px;
+    -fx-text-fill: #00cfe8;
+    /*-fx-background-color: #fff;*/
+}
+.btn.success:hover{
+    -fx-background-color: #33d67c;
+}
+.btn.warning:hover{
+    -fx-background-color: #ffac5d;
+}
+.btn.danger:hover{
+    -fx-background-color: #ed6b6c;
+}
+.btn.infor:hover{
+    -fx-background-color: #03e4ff;
+}
+.btn.clear:hover{
+    -fx-background-color: rgba(0,207,232,.04);
+}
+
+.btn.success:hover .icon,
+.btn.warning:hover .icon,
+.btn.danger:hover .icon,
+.btn.infor:hover .icon{
+    -fx-fill: #fff;
+}
+
+.icon.success{
+    -fx-fill: #28c76f;
+}
+.icon.warning{
+    -fx-fill: #ff9f43;
+}
+.icon.danger{
+    -fx-fill: #ea5455;
+}
+.icon.infor{
+    -fx-fill: #00cfe8;
+}
+
+.card {
+    -fx-background-color: #fff;
+    -fx-background-radius: 10px;
+    /*-fx-border-color: #ccc;*/
+    -fx-border-width: .5px;
+    -fx-padding: 10px;
+}
+.bgMenu
+{
+    /*-fx-background-color:  linear-gradient(to bottom right, #6d6f70, #47585e);*/
+    /*-fx-background-color: #888888;*/
+    -fx-background-color: #787878;
+}
+
+.shadow{
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,.4), 6,0,0,0);
+}
+.text-center{
+    -fx-alignment: CENTER;
+}
+.textNameUser
+{
+    -fx-font-weight: bold;
+}
+/**************************************************
+ * Filter Combos
+**************************************************/
+#customFilter {
+    -fx-border-color: transparent;
+    -fx-border-radius: 0;
+    -fx-background-color: #007BF6;
+    -fx-text-fill: white;
+
+    -fx-padding: 4;
+    -fx-background-insets: 0;
+}
+
+#customFilter .text-field {
+    -fx-prompt-text-fill: white;
+}
+
+#customFilter .combo-popup .text-field {
+    -fx-prompt-text-fill: -mfx-text-me;
+}
+
+#customFilter .caret .mfx-font-icon {
+    -mfx-color: #FF794B;
+    -mfx-description: "fas-angle-down";
+    -mfx-size: 16;
+}
+
+#customFilter .caret .mfx-ripple-generator {
+    -mfx-ripple-color: rgba(255, 255, 255, 0.5);
+}

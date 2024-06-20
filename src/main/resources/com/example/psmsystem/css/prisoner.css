@@ -1,0 +1,53 @@
+.bgAnchorPane
+{
+    -fx-background-color: #7e8c8f;
+    -fx-font-size: 14px;
+}
+.btnSearch
+{
+    /*-fx-background-color: red;*/
+    -fx-background-radius: 5px;
+}
+/*.btnFunction*/
+/*{*/
+/*    -fx-background-color: blue;*/
+/*}*/
+/*.card {*/
+/*    -fx-background-color: #fff;*/
+/*    -fx-background-radius: 10px;*/
+/*    -fx-border-color: #ccc;*/
+/*    -fx-border-width: 0.5px;*/
+/*    -fx-padding: 10px;*/
+/*}*/
+.bgTestControl {
+    -fx-border-color: transparent transparent #393d39 transparent ;
+}
+.card
+{
+    -fx-background-color: #7a7a7a;
+    -fx-background-radius: 5px;
+    -fx-border-radius: 5px;
+    -fx-font-family: "Courier New";
+    -fx-font-size: 14px;
+}
+
+/*.txtSearch {*/
+/*    appearance: none;*/
+/*    border: none;*/
+/*    outline: none;*/
+/*    border-bottom: .2em solid #E91E63;*/
+/*    background: rgba(#E91E63, .2em);*/
+/*    border-radius: .2em .2em 0 0;*/
+/*    padding: .4em;*/
+/*    color: #E91E63;*/
+/*}*/
+.txtSearch {
+    -fx-background-color: rgba(255, 253, 253, 0.2); /* Màu nền */
+    -fx-border-color: transparent transparent #716f6f transparent; /* Màu viền dưới */
+    -fx-border-width: 0 0 0.2em 0; /* Độ rộng viền, chỉ viền dưới */
+    -fx-border-radius: 0.2em 0.2em 0 0; /* Bo tròn góc */
+    -fx-padding: 0.4em; /* Khoảng cách đệm */
+    -fx-text-fill: #0b0a0a; /* Màu văn bản */
+    -fx-font-size: 1em; /* Cỡ chữ */
+}
+

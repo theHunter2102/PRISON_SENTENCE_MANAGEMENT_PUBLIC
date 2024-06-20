@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import org.controlsfx.control.*?>
+
+<AnchorPane fx:id="anchorPaneAddPrisoner" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="670.0" prefWidth="600.0" styleClass="formAdd" stylesheets="@../../css/addPrisoner.css" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.psmsystem.controller.prisoner.AddPrisonerController">
+   <children>
+      <AnchorPane layoutX="79.0" layoutY="108.0" prefHeight="262.0" prefWidth="492.0" styleClass="prisonerForm" stylesheets="@../../css/addPrisoner.css" AnchorPane.rightAnchor="35.0">
+         <children>
+            <TextField fx:id="txtPrisonerFNAdd" layoutX="27.0" layoutY="111.0" prefHeight="26.0" prefWidth="128.0" promptText="Full name" styleClass="txt" stylesheets="@../../css/addPrisoner.css" AnchorPane.leftAnchor="30.0" AnchorPane.topAnchor="110.0" />
+            <HBox layoutX="80.0" layoutY="156.0" prefHeight="30.0" prefWidth="220.0" AnchorPane.topAnchor="160.0">
+               <children>
+            <!--      <HBox fx:id="tnGender" layoutX="171.0" layoutY="169.0" prefHeight="30.0" prefWidth="226.0" >-->
+                        <RadioButton fx:id="rbtnMale" mnemonicParsing="false" prefHeight="30.0" prefWidth="66.0" text="Male" />
+                        <RadioButton fx:id="rbtnFemale" mnemonicParsing="false" prefHeight="30.0" prefWidth="83.0" text="Female" />
+                        <RadioButton fx:id="rbtnOther" mnemonicParsing="false" prefHeight="30.0" prefWidth="68.0" text="Other" />
+               </children>
+            </HBox>
+             <Label layoutX="31.0" layoutY="163.0" prefHeight="25.0" prefWidth="42.0" text="Sex:" AnchorPane.leftAnchor="30.0" AnchorPane.topAnchor="160.0" />
+            <Button fx:id="btnAddImage" layoutX="332.0" layoutY="204.0" mnemonicParsing="false" onAction="#selectImageFile" styleClass="buttonControl" stylesheets="@../../css/addPrisoner.css" text="Add Image" AnchorPane.bottomAnchor="33.0" />
+            <TextField fx:id="txtContactName" layoutX="31.0" layoutY="204.0" prefHeight="26.0" prefWidth="128.0" promptText="Contact name" styleClass="txt" stylesheets="@../../css/addPrisoner.css" AnchorPane.bottomAnchor="32.0" AnchorPane.leftAnchor="30.0" AnchorPane.topAnchor="210.0" />
+            <TextField fx:id="txtContactPhone" layoutX="173.0" layoutY="204.0" prefHeight="26.0" prefWidth="128.0" promptText="Contact phone" styleClass="txt" stylesheets="@../../css/addPrisoner.css" AnchorPane.bottomAnchor="32.0" />
+            <Label layoutX="27.0" layoutY="14.0" prefHeight="26.0" prefWidth="152.0" text="Prisoner information">
+               <font>
+                  <Font name="Agency FB Bold" size="21.0" />
+               </font>
+            </Label>
+            <ImageView fx:id="imgPrisonerAdd" fitHeight="134.0" fitWidth="136.0" layoutX="332.0" layoutY="57.0" pickOnBounds="true" preserveRatio="true" AnchorPane.topAnchor="60.0" />
+            <Label fx:id="lbPrisonerId" layoutX="227.0" layoutY="14.0" prefHeight="26.0" prefWidth="70.0" text="40000">
+               <font>
+                  <Font name="Agency FB Bold" size="21.0" />
+               </font>
+            </Label>
+            <TextField fx:id="txtIdentityCard" layoutX="27.0" layoutY="59.0" prefHeight="26.0" prefWidth="128.0" promptText="Identity card" styleClass="txt" stylesheets="@../../css/addPrisoner.css" AnchorPane.leftAnchor="30.0" AnchorPane.topAnchor="60.0" />
+            <DatePicker fx:id="datePrisonerDOBAdd" layoutX="179.0" layoutY="110.0" prefHeight="26.0" prefWidth="120.0" promptText="Date of birth" AnchorPane.topAnchor="110.0" />
+            <AnchorPane layoutX="179.0" layoutY="61.0" prefHeight="25.0" prefWidth="120.0">
+               <children>
+                  <Button fx:id="btnCheckIdentity" layoutX="14.0" layoutY="54.0" maxHeight="27.0" mnemonicParsing="false" onAction="#checkIdentityCard" prefHeight="27.0" prefWidth="120.0" styleClass="buttonControl" stylesheets="@../../css/addPrisoner.css" text="Check" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="33.0" layoutY="398.0" prefHeight="236.0" prefWidth="403.0" styleClass="sentenceForm" stylesheets="@../../css/addPrisoner.css" AnchorPane.leftAnchor="35.0">
+         <children>
+            <CheckComboBox fx:id="ccbCrimes" layoutX="36.0" layoutY="181.0" prefHeight="26.0" prefWidth="152.0" title="Crimes" />
+            <Button fx:id="btnShowYearInput" layoutX="204.0" layoutY="181.0" onAction="#loadInputYearCrimeView" prefHeight="26.0" prefWidth="152.0" styleClass="buttonAddTime" stylesheets="@../../css/addPrisoner.css" text="Time of crime" AnchorPane.rightAnchor="45.0" />
+            <HBox fx:id="rbtnSentenceType" layoutX="159.0" layoutY="89.0" prefHeight="30.0" prefWidth="206.0" AnchorPane.rightAnchor="45.0">
+               <children>
+                  <RadioButton fx:id="rbtnUnlimited" mnemonicParsing="false" prefHeight="30.0" prefWidth="124.0" text="Life imprisonment">
+                     <font>
+                        <Font name="Agency FB" size="14.0" />
+                     </font></RadioButton>
+                  <RadioButton fx:id="rbtnLimited" mnemonicParsing="false" prefHeight="30.0" prefWidth="90.0" text="limited time">
+                     <font>
+                        <Font name="Agency FB" size="14.0" />
+                     </font></RadioButton>
+               </children>
+            </HBox>
+            <Label layoutX="36.0" layoutY="92.0" text="Sentence type:">
+               <font>
+                  <Font size="16.0" />
+               </font></Label>
+            <Label layoutX="14.0" layoutY="14.0" prefHeight="26.0" prefWidth="164.0" text="Sentence information">
+               <font>
+                  <Font name="Agency FB Bold" size="21.0" />
+               </font>
+            </Label>
+            <DatePicker fx:id="dateIn" layoutX="36.0" layoutY="134.0" prefHeight="26.0" prefWidth="152.0" promptText="Start date" />
+            <DatePicker fx:id="dateOut" layoutX="206.0" layoutY="134.0" onMouseEntered="#setEndDate" prefHeight="26.0" prefWidth="152.0" promptText="End date" />
+            <Label fx:id="lbSentenceId" layoutX="80.0" layoutY="54.0" prefHeight="26.0" prefWidth="138.0" text="40000">
+               <font>
+                  <Font name="Agency FB Bold" size="21.0" />
+               </font>
+            </Label>
+            <Label layoutX="36.0" layoutY="59.0" text="ID: ">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Button fx:id="btnEndDate" layoutX="202.0" layoutY="14.0" prefHeight="26.0" prefWidth="152.0" text="End date" visible="false" AnchorPane.rightAnchor="49.0" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="460.0" layoutY="440.0" prefHeight="134.0" prefWidth="120.0">
+         <children>
+            <Button fx:id="btnBack" layoutX="12.0" layoutY="20.0" maxHeight="30.0" mnemonicParsing="false" onAction="#backPrisoner" prefHeight="30.0" prefWidth="59.0" styleClass="buttonControl" stylesheets="@../../css/addPrisoner.css" text="Back" AnchorPane.leftAnchor="6.0" AnchorPane.rightAnchor="6.0">
+               <font>
+                  <Font name="Arial Bold" size="16.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnAddPrisonerFinal" layoutX="12.0" layoutY="74.0" maxHeight="30.0" mnemonicParsing="false" onAction="#setBtnAddPrisonerFinal" prefHeight="30.0" prefWidth="73.0" styleClass="buttonControl" stylesheets="@../../css/addPrisoner.css" text="Create" AnchorPane.leftAnchor="6.0" AnchorPane.rightAnchor="6.0">
+               <font>
+                  <Font name="Arial Bold" size="16.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="title" layoutY="11.0" prefHeight="70.0" prefWidth="371.0" styleClass="title" stylesheets="@../../css/addPrisoner.css">
+         <children>
+            <Label layoutX="186.0" layoutY="16.0" text="NEW PRISONER">
+               <font>
+                  <Font name="Agency FB Bold" size="30.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+<!--      </HBox>-->
+   </children>
+
+</AnchorPane>
