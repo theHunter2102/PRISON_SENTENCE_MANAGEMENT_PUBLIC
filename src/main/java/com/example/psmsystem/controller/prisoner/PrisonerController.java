@@ -86,6 +86,9 @@ public class PrisonerController implements Initializable {
                     ItemPrisonerController controller = fxmlLoader.getController();
                     controller.setPrisonerController(this);
                     controller.setPrisonerItem(prisoner);
+                    if (prisoner.isStatus()) {  // Assuming isStatus() method is available
+                        prisonerItem.setStyle("-fx-background-color: #a5ff9e;-fx-text-color: white");
+                    }
                     rowBox.getChildren().add(prisonerItem);
                 } catch (IOException e) {
                     System.out.println(e.getMessage());
